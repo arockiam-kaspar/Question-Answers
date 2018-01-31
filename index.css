@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
+}
+input[type="text"]{
+	min-width: 400px;
+}
+header{
+ padding: 30px;
+ font-weight: bold;
+}
+.App {
+	margin-top: 30px;
+}
+.question-wrapper , .authoring-wrapper {
+	border: 1px solid #ccc;
+}
+.question-wrapper {
+	background-color: #bdd7ee;
+}
+.question-container{
+	min-height: 400px;
+}
+.authoring-wrapper{
+	background-color: #deebf7;
+	min-height: 400px;
+}
+.button-wrapper{
+	text-align: center;
+}
+.button-wrapper .btn{
+	margin: 30px 10px 10px 0;
+}
+.expandingtext{
+	height: 2em;
+}
+.uploadfile{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+input[type="file"].uploadBtn{
+	display: none;
+}
+.uploadBtnLabel{
+	width: auto;
+	height: auto;
+	border-radius: 3px;
+	padding: 10px 15px;
+	background: #007bff;
+	cursor: pointer;
+	color: #fff;
+}
+.fileImage{
+	width: 200px;
+	height: 200px;
+	display: none;
+}
+/*new style*/
+.authoring-container img{
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.form-group{
+	padding: 0 30px 0 30px;
+}
+.form-group a{
+	color: #000;
+}
+.form-inline label {
+	display: inline;
+}
+.bold{
+	font-weight: bold;
+	color: #000;
+}
+.snclass{
+	display: inline-block;
+	width: 8%;
+	vertical-align: top;
+}
+.snname{
+	display: inline-block;
+	width: 90%;
+}
